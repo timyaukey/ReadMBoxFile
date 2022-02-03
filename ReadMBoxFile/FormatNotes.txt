@@ -17,7 +17,7 @@ Content-Type: image/jpeg;name="(whatever.JPG)"
 
 
 Content-Type: multipart/mixed;boundary=(marker)
-(blank line)
+(blank line) 
 (lots of lines)
 --(marker)
 (headers)
