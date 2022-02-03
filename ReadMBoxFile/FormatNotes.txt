@@ -1,0 +1,33 @@
+﻿These notes are copied from some pieces of paper that had been sitting around for a long time. I think they represent patterns I noticed in MBOX file contents.
+
+=0D
+=0A
+=3D
+
+From (something)@(host.zzz)
+Sat Aug 11 04:19:08+0000 2108
+Content-Type: text/html;charset="UTF-8"
+Subject: (whatever)
+
+--_(something?)
+Content-Type: image/jpeg;name="(whatever.JPG)"
+(lots of lines)
+(blank line)
+--_(something)--
+
+
+Content-Type: multipart/mixed;boundary=(marker)
+(blank line)
+(lots of lines)
+--(marker)
+(headers)
+(content)
+--(marker)
+(headers)
+(content)
+--(marker)--
+
+Also
+Content-Type: text/plain
+MIME-Version: 1.0
+From: <susanandtim@schmidtsgardencenter.com>
